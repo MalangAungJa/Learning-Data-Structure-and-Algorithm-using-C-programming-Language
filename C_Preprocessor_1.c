@@ -10,9 +10,9 @@
 /*
     C preprocessor directive modifies the C source code file
     before the compiler compiles the C source code.
-    In another word, before excuting the C source code, the source code
+    In other words, before executing the C source code, the source code
     must be built. After building successfully without error, the source code can be run.
-    When we build the source code, we must add the header file into the source code file.
+    When we build the source code, we must add the header file to the source code file.
 
     There are three preprocessor
     1. directives
@@ -20,16 +20,16 @@
     3. macros
 
     When we declare directives preprocessor,
-    they start with sharp sign(#).
+    they start with a sharp sign(#).
     #include <stdio.h>
-    # sign commands to include the standard input output file into the source code
-    when we compiling the source code file by compiler.
-    Standard input output library function: printf,scanf
+    # Sign commands to include the standard input output file into the source code
+    when compiling the source code file by compiler.
+    Standard input-output library function: printf,scanf
     #include <conio.H>
     <conio.h> console input/output header file
     Console input/output library function: getch();
 
-    int main(void) is program's entry point.
+    int main(void) is the program's entry point.
 */
     // single line comment
 
@@ -38,23 +38,24 @@
        comment */
 
     /*
-        Compiler will ignore the comments when program is executing.
-        Advantage of comments is
+        The compiler will ignore the comments when the program is executing.
+        The advantages of comments are
         I. easy to understand
         II. easy to trace
-        II.  esay to debug
-
+        III.  Easy to debug
+        ..etc.
 
     */
 
 #include <stdio.h> // stdio.h is the standard input/output header file or library.
                    // It is needed for the function printf.
                    // print means prompt the output on the terminal or screen.
-                   // f is for format the output string.
+                   // f is for formatting the output string.
 
-int main(void){ // program entry point means that the program starts to run from here.
-                // The program runs in sequence of instructions or statements.
-                // A statement ends when the compiler found the simicolon sign ; .
+int main(void){ 
+    // program entry point means the program starts running from here.
+    // The program runs in the sequence of instructions or statements.
+    // A statement ends when the compiler finds the semicolon sign;
 
 
     printf("Welcome From Myanmar!");
